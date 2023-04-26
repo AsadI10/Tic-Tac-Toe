@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to the Tic-Tac-Toe Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
-<body>
-    
+<body onload="initialize()">
+    <h1>Tic-Tac-Toe</h1>
+    <table id="table-game">
+        <tr><td class="td-game"><div id="cell0" onclick="cellCliecked(this.id)"
+            class="fixed"></div></td>
+
+        </tr>
+    </table>
 </body>
 </html>
