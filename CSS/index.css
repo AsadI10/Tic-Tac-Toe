@@ -58,5 +58,8 @@ table{
     font-weight: bold;
 }
 .th_list{
-    
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
 }
