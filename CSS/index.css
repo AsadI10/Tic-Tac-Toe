@@ -71,3 +71,8 @@ table{
     margin: 0 auto;
     overflow: hidden;
 }
+.x{
+    color: darksalmon;
+    position: relative;
+    top: -8px;
+}
