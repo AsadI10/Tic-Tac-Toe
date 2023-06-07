@@ -101,3 +101,17 @@ table{
     background-color: #00000099;
 }
 
+/* modal content */
+.modal-content {
+    background-color: rgba(240, 240, 240,);
+    color: rgb(32, 32, 32);
+    font-size: 2em;
+    font-weight: bold;
+    /* 16 % from the top and centered */
+    margin: 16% auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 380px;
+    max-width: 80%;
+}
