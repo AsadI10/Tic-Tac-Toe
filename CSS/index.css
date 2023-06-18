@@ -1,6 +1,6 @@
 body{
-    background-color: #202020;
-    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+    background-color: #191818;
+    /* background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg"); */
     color: #e6e6e6;
     text-align: center;
     font-family: 'Indie Flower', 'Comic Sans', cursive;
@@ -97,7 +97,7 @@ table{
     width: 100%;
     height: 100%;
     overflow: auto; /* enable scroll if needed */
-    background-color: black; /* fallback color*/
+    background-color: rgb(235, 210, 210); /* fallback color*/
     background-color: #00000099;
 }
 
