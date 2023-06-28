@@ -72,3 +72,16 @@ var moves = 0,
     computerText = oText,
     difficulty = 1,
     myGrid = null;
+
+
+//==================================
+// GRID OBJECT
+//==================================
+
+// Grid constructor
+//=================
+function Grid() {
+    this.cells = new Array(9);
+}
+
+
