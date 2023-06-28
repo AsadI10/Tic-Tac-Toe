@@ -51,3 +51,24 @@ function intRandom(min, max) {
     var rand = min + Math.random() * (max + 1 - min);
     return Math.floor(rand);
 }
+
+// GLOBAL VARIABLES
+var moves = 0,
+    winner = 0,
+    x = 1,
+    o = 3,
+    player = x,
+    computer = o,
+    whoseTurn = x,
+    gameOver = false,
+    score = {
+        ties: 0,
+        player: 0,
+        computer: 0
+    },
+    xText = "<span class=\"x\">&times;</class>",
+    oText = "<span class=\"o\">o</class>",
+    playerText = xText,
+    computerText = oText,
+    difficulty = 1,
+    myGrid = null;
